@@ -121,6 +121,6 @@ Uygulama:
 
 **Ekip Üyeleri**
 
--19060412-Mehmet Emin SARIKAYA
--19060429-Samet ŞAMLI
--19060401-Berkin BAYRİ
+- 19060412-Mehmet Emin SARIKAYA
+- 19060429-Samet ŞAMLI
+- 19060401-Berkin BAYRİ
