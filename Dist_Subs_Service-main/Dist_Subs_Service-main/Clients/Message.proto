@@ -1,0 +1,12 @@
+syntax = "proto3";
+package hasup;
+
+enum ResponseType {
+    YEP = 0;
+    NOP = 1;
+}
+
+message Message {
+    DemandType demand = 1;
+    ResponseType response = 2;
+}
