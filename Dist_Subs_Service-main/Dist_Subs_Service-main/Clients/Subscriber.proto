@@ -1,0 +1,23 @@
+syntax = "proto3";
+package hasup;
+
+enum DemandType {
+    SUBS = 0;
+    ONLN = 1;
+    OFFL = 2;
+    DEL = 3;
+    UPDT = 4;
+    CPCTY = 5;
+    STRT = 6;
+    STOP = 7;
+}
+
+message Subscriber {
+    int32 ID = 1;
+    string name_surname = 2;
+    int64 start_date = 3;
+    int64 last_accessed = 4;
+    repeated string interests = 5;
+    bool isOnline = 6;
+    DemandType demand = 7;
+}
