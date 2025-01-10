@@ -1,0 +1,7 @@
+syntax = "proto3";
+package hasup;
+
+message Configuration {
+    int32 fault_tolerance_level = 1;
+    DemandType method = 2;
+}
